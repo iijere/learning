@@ -6,4 +6,4 @@ before_install:
   - docker build -t julianijere/learning -f Dockerfile.dev .
 
 script:
-  - docker run julianijere/learning npm run test -- --converage
+  - docker run julianijere/learning npm run test -- --coverage
